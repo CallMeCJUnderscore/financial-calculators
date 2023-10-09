@@ -17,27 +17,27 @@ public class Interface {
             choice = choice.toUpperCase();
             switch (choice){
                 case "M": //Mortgage Calculator
-                    System.out.println("Running Mortgage Calculator...");
+                    System.out.println("Running Mortgage Calculator...\n");
                     MortgageCalculator.main(args);
-                    System.out.println("\nReturning to main menu...\n\n");;
                     break;
                 case "F": //Future Value Calculator
-                    System.out.println("Running Future Value Calculator...");
+                    System.out.println("Running Future Value Calculator...\n");
                     FutureValue.main(args);
-                    System.out.println("\nReturning to main menu...\n\n");;
                     break;
                 case "P": //Present Value Calculator
-                    System.out.println("Running Present Value Calculator...");
+                    System.out.println("Running Present Value Calculator...\n");
                     PresentValue.main(args);
-                    System.out.println("\nReturning to main menu...\n\n");;
+
                     break;
                 case "Q": //Quit
                     System.out.println("Thank you for using this calculator! Goodbye!");
                     return;
-                default:
+                default: //They typed something wrong
                     System.out.println("ERROR: Invalid Choice!");
-                    System.out.println("Returning to main menu...\n\n");
             }
+            System.out.print("\nPlease enter any key to return to the main menu. ");
+            scanner.nextLine();
+            System.out.println("\nReturning to main menu...\n\n");
         }
     }
 }

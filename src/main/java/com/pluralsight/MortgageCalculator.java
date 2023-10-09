@@ -60,7 +60,7 @@ public class MortgageCalculator {
         //Present results to user
         System.out.println("\nThank you for your input! After running the numbers, here is what I found:");
         System.out.printf(Locale.US, "You said you have a $%,.2f loan at %.3f%% interest set to last for %d years and %d months.\n", principal, interestPercentage, years, months);
-        System.out.printf(Locale.US, "That means you can expect your monthly payment to be $%,.2f with a total interest of $%,.2f", monthlyPayment, totalInterest);
+        System.out.printf(Locale.US, "That means you can expect your monthly payment to be $%,.2f with a total interest of $%,.2f.", monthlyPayment, totalInterest);
 
         return;
 

@@ -48,7 +48,6 @@ public class PresentValue {
         presentValue= calculatePresentValue(monthlyPayout, expectedInterestRate, years);
         double months = years * 12;
         months %= 12;
-        System.out.println(months);
 
         //Present results to user
         System.out.println("\nThank you for your input! After running the numbers, here is what I found:");
