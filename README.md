@@ -1,5 +1,5 @@
 # financial-calculators
-Week 1 Capstone Workshop
+Week 1 Workshop
 
 This project contains 3 financial calculators and all the logic required to run them.
 They are all contained in their own files, and are accessed through the code located inside Interface.java.
